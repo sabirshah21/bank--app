@@ -1,4 +1,4 @@
-import { Navbar,Hero,Billing,Business,button,CardDeal,Client,CTA,FeedbackCard,Footer,GetStarted,Stats,Testimonials } from "./components";
+import { Navbar,Hero,Billing,Business,Button,CardDeal,Client,CTA,FeedbackCard,Footer,GetStarted,Stats,Testimonials } from "./components";
 
 
 const App = () => (
@@ -19,10 +19,11 @@ const App = () => (
       <div className="xl:max-w-[1280px] w-full">
         <Stats />
         <Business />
+        <Button />
         <Billing />
         <CardDeal />
         <Testimonials />
-        <Clients />
+        <Client />
         <CTA />
         <Footer />
       </div>

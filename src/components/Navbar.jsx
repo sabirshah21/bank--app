@@ -2,6 +2,8 @@
 import { useState } from 'react'
 import logo from "../assets/logo.svg"
 import menu from "../assets/menu.svg"
+import close from "../assets/close.svg"
+import { navLinks } from '../constants'
 
 
 const Navbar = () => {
